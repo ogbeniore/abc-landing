@@ -1,0 +1,136 @@
+a {
+  text-decoration: none !important;
+}
+* {
+  font-family: 'Nunito Sans', sans-serif;
+}
+@font-face {
+  font-family: 'Nunito Sans', sans-serif;
+  src: url('fonts/NunitoSans-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+.btn {
+  padding: 6px 40px;
+  background-color: #3b004a;
+  color: white;
+  border-radius: 4px;
+}
+.btn-inverse {
+  padding: 6px 40px;
+  background-color: transparent;
+  color: #3b004a;
+  border: 2px solid #3b004a;
+  border-radius: 4px;
+}
+.navbar.navbar-default {
+  text-align: center;
+  min-height: 60px;
+  border-top: 4px solid #3b004a;
+}
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav > li > a,
+.navbar-default .navbar-nav > li > a:hover {
+  color: #3b004a;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #3b004a;
+}
+@media (min-width: 786px) {
+  .navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+  }
+  .three {
+    margin-left: 91.234px;
+  }
+}
+@media (max-width: 786px) {
+  .card {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .footer {
+    text-align: center;
+  }
+}
+
+.header {
+  min-height: 500px;
+  background-image: linear-gradient(
+      rgba(59, 0, 74, 0.79),
+      rgba(59, 0, 74, 0.79)
+    ),
+    url(../img/BG.png);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  clip-path: polygon(0 0, 100% 0, 100% calc(100% - 4vw), 0 100%);
+}
+
+.justified {
+  text-align: justify;
+  line-height: 1.5;
+  font-weight: lighter;
+}
+.big-heading {
+  line-height: 1.5;
+  font-weight: bold;
+}
+.header-content {
+  padding-top: 15%;
+}
+.update-form {
+  background-color: white;
+  color: #333333;
+  padding: 20px 40px;
+  border-radius: 4px;
+  width: 80%;
+  margin: auto;
+  margin-top: 25%;
+}
+.input-group {
+  margin-bottom: 20px;
+  width: 100%;
+}
+.form-control {
+  border: 1px solid #3b004a;
+  border-radius: 2px !important;
+}
+.card {
+  padding: 20px;
+  text-align: center;
+  background-color: white;
+  border-top: 4px solid #3b004a;
+  border-radius: 4px;
+  box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.25);
+  margin-bottom: 50px;
+}
+.card > img {
+  width: 120px;
+}
+.feature {
+  font-weight: 600;
+}
+.details {
+  background: rgba(59, 0, 74, 0.12);
+  padding: 40px 0;
+}
+.purple {
+  color: #3b004a;
+}
+.footer {
+  background-color: #3b004a;
+  padding: 30px 0;
+  color: white;
+}
+.white {
+  color: white;
+}
+.footer-list {
+  list-style: none;
+  padding: 0;
+}
