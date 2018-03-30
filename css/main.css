@@ -12,29 +12,29 @@ a {
 }
 .btn {
   padding: 6px 40px;
-  background-color: #3b004a;
+  background-color: #051e7b;
   color: white;
   border-radius: 4px;
 }
 .btn-inverse {
   padding: 6px 40px;
   background-color: transparent;
-  color: #3b004a;
-  border: 2px solid #3b004a;
+  color: #051e7b;
+  border: 2px solid #051e7b;
   border-radius: 4px;
 }
 .navbar.navbar-default {
   text-align: center;
   min-height: 60px;
-  border-top: 4px solid #3b004a;
+  border-top: 4px solid #051e7b;
 }
 .navbar-default .navbar-brand,
 .navbar-default .navbar-nav > li > a,
 .navbar-default .navbar-nav > li > a:hover {
-  color: #3b004a;
+  color: #051e7b;
 }
 .navbar-default .navbar-toggle .icon-bar {
-  background-color: #3b004a;
+  background-color: #051e7b;
 }
 @media (min-width: 786px) {
   .navbar-nav.navbar-center {
@@ -59,8 +59,9 @@ a {
 .header {
   min-height: 500px;
   background-image: linear-gradient(
-      rgba(59, 0, 74, 0.79),
-      rgba(59, 0, 74, 0.79)
+      to right,
+      rgba(43, 9, 184, 0.79) 40%,
+      rgba(7, 37, 155, 0.79) 60%
     ),
     url(../img/BG.png);
   background-attachment: fixed;
@@ -97,14 +98,14 @@ a {
   width: 100%;
 }
 .form-control {
-  border: 1px solid #3b004a;
+  border: 1px solid #051e7b;
   border-radius: 2px !important;
 }
 .card {
   padding: 20px;
   text-align: center;
   background-color: white;
-  border-top: 4px solid #3b004a;
+  border-top: 4px solid #057b2c;
   border-radius: 4px;
   box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.25);
   margin-bottom: 50px;
@@ -120,10 +121,10 @@ a {
   padding: 40px 0;
 }
 .purple {
-  color: #3b004a;
+  color: #051e7b;
 }
 .footer {
-  background-color: #3b004a;
+  background-color: #000e28;
   padding: 30px 0;
   color: white;
 }
@@ -133,4 +134,18 @@ a {
 .footer-list {
   list-style: none;
   padding: 0;
+}
+.startup {
+  padding: 60px 15px;
+}
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus {
+  color: white;
+  background-color: #051e7b;
+}
+.nav-pills > li > a {
+  color: #051e7b;
+  border: 1px solid #051e7b;
+  margin-bottom: 8px;
 }
